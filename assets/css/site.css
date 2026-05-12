@@ -769,3 +769,66 @@ p { margin: 0 0 1em; }
     max-width: none;
   }
 }
+
+/* ---------- Bilingual support (Projects) ---------- */
+.project-title-en {
+  display: block;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: .62em;
+  letter-spacing: .14em;
+  color: var(--fg-mute);
+  margin-top: .4em;
+  font-weight: 400;
+  text-transform: none;
+}
+.project-lead.en,
+.project-point dd.en {
+  margin-top: .5em;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: .88em;
+  color: var(--fg-soft);
+  line-height: 1.85;
+  letter-spacing: 0;
+}
+.project-point dt .dt-en {
+  display: block;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: .82em;
+  font-weight: 400;
+  letter-spacing: .04em;
+  color: var(--fg-mute);
+  margin-top: .25em;
+}
+
+/* ---------- Projects CTA ---------- */
+.project-cta {
+  margin-top: 6rem;
+  padding: 3.5rem 0 1rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+.project-cta p {
+  margin: 0 0 .5rem;
+  font-size: .92rem;
+  color: var(--fg-soft);
+}
+.project-cta .project-cta-en {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: .98rem;
+  color: var(--fg);
+  letter-spacing: .04em;
+  margin-bottom: .5rem;
+}
+.project-cta-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: .72rem;
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--fg);
+  padding-bottom: 3px;
+}
