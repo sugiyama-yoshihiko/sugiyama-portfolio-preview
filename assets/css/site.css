@@ -1015,3 +1015,30 @@ p { margin: 0 0 1em; }
   }
   .service-num { font-size: 1rem; }
 }
+
+/* ---------- Service includes (sub-listing of merged services) ---------- */
+.service-includes {
+  margin: 0 0 1rem;
+  padding: .85rem 1rem;
+  background: #f6f6f6;
+  font-size: .82rem;
+  line-height: 1.85;
+  color: var(--fg-soft);
+  border-left: 2px solid var(--line);
+}
+.service-includes.en {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: .78rem;
+  color: var(--fg-mute);
+  margin-bottom: 1.5rem;
+}
+.service-includes-label {
+  display: inline-block;
+  margin-right: .65rem;
+  font-size: .68rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+  font-style: normal;
+}
