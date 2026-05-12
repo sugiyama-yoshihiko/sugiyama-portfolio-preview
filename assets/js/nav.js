@@ -38,10 +38,29 @@ document.addEventListener('DOMContentLoaded', resetUIState);
 const button = document.getElementById('navbutton');
 const navWrap = document.getElementById('header-nav-wrap');
 
-button?.addEventListener('click', () => {
+button?.addEventListener('click', (e) => {
+  e.stopPropagation();
   const isOpen = document.body.classList.toggle('menu-active');
   navWrap.classList.toggle('is-open', isOpen);
   button.setAttribute('aria-expanded', String(isOpen));
+});
+
+// Close on outside click
+document.addEventListener('click', (e) => {
+  if (!navWrap?.classList.contains('is-open')) return;
+  if (navWrap.contains(e.target) || button?.contains(e.target)) return;
+  document.body.classList.remove('menu-active');
+  navWrap.classList.remove('is-open');
+  button?.setAttribute('aria-expanded', 'false');
+});
+
+// Close on Escape
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && navWrap?.classList.contains('is-open')) {
+    document.body.classList.remove('menu-active');
+    navWrap.classList.remove('is-open');
+    button?.setAttribute('aria-expanded', 'false');
+  }
 });
 
 window.addEventListener('resize', () => {
