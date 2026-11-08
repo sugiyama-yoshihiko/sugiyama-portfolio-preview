@@ -1,0 +1,20 @@
+/* Shared typography, matching the home Statement. */
+:root{--site-font:"Times New Roman","Hiragino Mincho ProN","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","Yu Mincho",serif;--type-body:12px;--type-leading:2.2;--type-tracking:.035em;--sans:var(--site-font);--serif:var(--site-font)}
+body{font-family:var(--site-font);font-weight:400}
+main,main :is(p,li,dt,dd,a,span,h1,h2,h3,h4),.back-header,.footer{font-family:var(--site-font)!important}
+main :is(p,li,dt,dd){font-size:var(--type-body)!important;line-height:var(--type-leading)!important;letter-spacing:var(--type-tracking)!important;font-weight:400}
+main :is(h1,h2,h3,h4){font-weight:400!important;line-height:1.7!important;letter-spacing:.035em!important}
+main h1{font-size:16px!important}main h2{font-size:14px!important}main :is(h3,h4){font-size:13px!important}
+main .en,main [lang="en"]{font-style:normal!important;line-height:1.9!important;letter-spacing:.01em!important;color:#666}
+main :is(.page-sub,.project-role,.project-title-en,.services-title-en,.services-eyebrow,.service-en,.service-price-sub,.album-count,.cv-name-en){font-size:11px!important;line-height:1.8!important;letter-spacing:.02em!important;font-style:normal!important;color:#666}
+main :is(.project-lead,.session-concept,.statement-text,.text-page){max-width:48em}
+main :is(.project-link,.contact-mail,.contact-sns a,.album-years a,.session-back){font-size:12px!important;line-height:1.8!important;letter-spacing:.02em!important;text-transform:none}
+main .project-link{padding:8px 0;border-bottom:1px solid #aaa}
+main .service-price span{font-size:13px;line-height:1.8;letter-spacing:0}
+.back-header a,.footer nav,.next-work{font-family:var(--site-font);font-size:11px;line-height:1.8;letter-spacing:.01em}
+.footer p{font-family:var(--site-font);font-size:10px;line-height:1.8}
+.entry h1{font-size:13px!important;line-height:1.5!important;letter-spacing:4px!important}
+.entry h2{font-size:12px!important;line-height:1.5!important;letter-spacing:0!important}
+.entry .entry-statement h2{font-size:11px!important}.entry nav{font-family:var(--site-font);font-size:11px;line-height:1.5}
+.archive .secondary,.archive .home{font-size:12px;line-height:1.8}
+@media(max-width:520px){:root{--type-body:13px;--type-leading:2.1;--type-tracking:.02em}main :is(.project-role,.page-sub,.project-title-en,.services-title-en,.service-en,.cv-name-en){font-size:12px!important}.back-header a,.archive .home{font-size:12px}main :is(p,a,dd){overflow-wrap:anywhere}.entry nav{white-space:normal}}
