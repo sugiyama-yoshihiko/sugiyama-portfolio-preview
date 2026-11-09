@@ -8,3 +8,6 @@ html[lang="en"] .page-head{align-items:flex-start;flex-direction:column;gap:10px
 html[lang="en"] .page-head h1{max-width:40em}
 html[lang="en"] .statement-text{hyphens:auto;overflow-wrap:break-word}
 @media(max-width:520px){.thesis-header{gap:8px}.thesis-header .language-switch a{font-size:12px}}
+
+/* Keep the subtitle directly beneath the main title in both languages. */
+.page-head h1 .thesis-subtitle{display:block;margin-top:8px;font-size:13px;line-height:1.8;letter-spacing:.035em}
