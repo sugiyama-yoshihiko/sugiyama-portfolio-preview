@@ -1,0 +1,10 @@
+/* Thesis-only language navigation. Shared site styles are unchanged. */
+.thesis-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.thesis-header .language-switch{display:flex;align-items:center;gap:4px;margin-left:auto}
+.thesis-header .language-switch a{justify-content:center;min-height:44px;min-width:44px;padding:0 8px;white-space:nowrap}
+.thesis-header .language-switch [aria-current="page"]{color:#111;text-decoration:underline;text-underline-offset:5px}
+.thesis-header .language-switch span{color:#aaa;font-size:11px}
+html[lang="en"] .page-head{align-items:flex-start;flex-direction:column;gap:10px}
+html[lang="en"] .page-head h1{max-width:40em}
+html[lang="en"] .statement-text{hyphens:auto;overflow-wrap:break-word}
+@media(max-width:520px){.thesis-header{gap:8px}.thesis-header .language-switch a{font-size:12px}}

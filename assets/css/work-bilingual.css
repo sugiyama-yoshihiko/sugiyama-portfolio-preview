@@ -1,0 +1,5 @@
+/* English translations follow the original Japanese text. */
+.work-title-en{margin:8px 0 0;font-size:clamp(14px,1.5vw,18px);line-height:1.6;font-weight:400;letter-spacing:.015em;color:#555}
+.album-title-en{display:block;margin:5px 0 0;font-size:12px;line-height:1.6;letter-spacing:.015em;color:#555}
+.session-concept p.work-text-en{margin-top:12px;margin-bottom:24px;line-height:1.85;letter-spacing:.01em;overflow-wrap:break-word}
+@media(max-width:600px){.work-title-en{font-size:14px}.album-title-en{font-size:12px}.session-concept p.work-text-en{font-size:14px;line-height:1.85}}
