@@ -13,4 +13,4 @@ html[lang="en"] .statement-text{hyphens:auto;overflow-wrap:break-word}
 .page-head h1 .thesis-subtitle{display:block;margin-top:8px;font-size:13px;line-height:1.8;letter-spacing:.035em}
 
 /* Align the thesis title with the opening section and body column. */
-.contents > .page-head{max-width:760px;margin-left:auto;margin-right:auto}
+.contents > .page-head{max-width:48em;margin-left:auto;margin-right:auto}
