@@ -10,3 +10,5 @@
 
 /* Keep the navigation compact while separating works, projects and information. */
 .entry .home-project-section{margin-top:16px}.entry .home-project-section + nav.home-pages{margin-top:18px}.entry nav.home-contact{margin-top:14px}.entry{padding-bottom:8px}
+/* Equal visual spacing between navigation items; Projects remains one group. */
+.entry nav.home-pages,.entry nav.home-contact{gap:24px}.entry nav.home-pages a,.entry nav.home-contact a,.entry nav.home-projects a,.entry-footer a{padding-top:0;padding-bottom:0;min-height:0;line-height:1.8}.entry .home-project-section,.entry .home-project-section + nav.home-pages,.entry nav.home-contact{margin-top:24px}.entry{padding-bottom:24px}.entry-footer a{line-height:1.8}
