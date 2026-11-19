@@ -7,3 +7,6 @@
 
 /* Quiet contact footer, outside the primary navigation. */
 .entry{padding-bottom:28px}.entry-footer{width:min(420px,calc(100% - 48px));margin:0 auto 72px;font-size:11px;line-height:1.8}.entry-footer a{display:inline-block;min-height:44px;padding:10px 0}@media(max-width:520px){.entry-footer{width:calc(100% - 56px);max-width:340px}}
+
+/* Keep the navigation compact while separating works, projects and information. */
+.entry .home-project-section{margin-top:16px}.entry .home-project-section + nav.home-pages{margin-top:18px}.entry nav.home-contact{margin-top:14px}.entry{padding-bottom:8px}
