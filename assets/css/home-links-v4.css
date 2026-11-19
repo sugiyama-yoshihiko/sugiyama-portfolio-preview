@@ -4,5 +4,3 @@
 
 /* Separate artworks and artist information from ongoing external projects. */
 .entry .home-project-section{margin-top:32px}.entry .projects-heading{font-size:11px;line-height:1.8;letter-spacing:.04em;color:#666;margin:0 0 6px}.entry .home-project-section nav.home-projects{margin-top:0}
-
-.entry nav{font-size:12px}@media(max-width:520px){.entry nav{font-size:13px}}
