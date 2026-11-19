@@ -1,0 +1,7 @@
+/* Shared page-level language switch; same layout as Text. */
+.bilingual-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.bilingual-header .language-switch{display:flex;align-items:center;gap:4px;margin-left:auto}
+.bilingual-header .language-switch a{justify-content:center;min-height:44px;min-width:44px;padding:0 8px;white-space:nowrap}
+.bilingual-header .language-switch [aria-current="page"]{color:#111;text-decoration:underline;text-underline-offset:5px}
+.bilingual-header .language-switch span{color:#aaa;font-size:11px}
+@media(max-width:520px){.bilingual-header{gap:8px}.bilingual-header .language-switch a{font-size:12px}}
