@@ -1,0 +1,2 @@
+/* Site-wide foreground text color, excluding embedded images. */
+body, body * { color: #1649B7 !important; }
