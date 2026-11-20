@@ -8,7 +8,7 @@ body, body * { color: var(--site-blue) !important; }
 main .project-link,
 .project-cta-link,
 .all-works a,
-.inquiry-cta {
+.inquiry-contact a {
   border-bottom-color: var(--site-blue);
 }
 .review-notice { border-left-color: var(--site-blue); }
